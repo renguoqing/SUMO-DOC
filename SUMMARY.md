@@ -1,0 +1,124 @@
+# Summary
+
+* [0-Introduction](/README.md)
+* [简介](1jian-jie.md)
+  * [了解SUMO](1jian-jie/1-1-SUMO-jie-shao.md)
+* [2-基础使用](2ji-chu-shi-yong.md)
+  * [文档中的符号解释](2ji-chu-shi-yong/wen-dang-zhong-de-fu-hao-jie-shi.md)
+  * [你需要掌握的一些计算机技巧](2ji-chu-shi-yong/ni-xu-yao-zhang-wo-de-yi-xia-ji-suan-ji-ji-qiao.md)
+  * [安装SUMO](2ji-chu-shi-yong/an-zhuang-sumo.md)
+  * [使用命令行工具](2ji-chu-shi-yong/shi-yong-ming-ling-xing-gong-ju.md)
+  * [可用的程序输入](2ji-chu-shi-yong/ke-yong-de-cheng-xu-shu-ru.md)
+* [3-路网构建](3lu-wang-gou-jian.md)
+  * 有关SUMO的路网文件
+  * 抽象路网的生成
+  * 通过NETCONVERT导入路网
+    * 通过XML自定义路网
+    * 其他来源转换路网
+      * 来自OpenStreetMap
+      * 来自VISUM
+      * 来自Vissim
+      * 来自OpenDRIVE
+      * 来自MATsim
+      * 来自ArcView\(shapefiles\)
+      * 来自DlrNavTeq
+      * 来自Robocup Simulation League 
+    * 导入SUMO路网
+    * 创建用于摩托仿真的路网
+    * 创建用于行人仿真的路网
+    * 更多的NETCONVERT参数
+    * 其他输出文件
+  * 通过NETEDIT来创建或者修改路网
+  * 包含高程数据
+  * 有关地理坐标
+* 4-需求建模
+  * 有关SUMO的需求建模的介绍
+  * 车辆、车辆类型和行程的定义
+  * 公共交通的仿真
+  * 个人和出行链的仿真
+  * 物流的仿真
+  * 最短或者最优路径优化
+  * Intermodal Routing
+  * 仿真中的行程
+  * 动态用户分配的计算
+  * 产生行人交通需求
+  * 生成车辆类型模拟车队
+  * 仿真需求生成所需的数据
+    * 导入OD矩阵
+    * 来自观察点的行程
+    * 转弯率的行程
+    * 活动——基于活动需求
+    * 随机行程
+* 5-仿真
+  * 基本定义
+  * 仿真输出
+  * TraCI（在线交互）
+  * 保存和加载交通状态
+* 5.1-交通管理以及设备
+  * 交通信号灯
+  * 公共交通
+  * 可变限速标志
+  * 重新规划行程或者路线指示牌
+  * 汽化器
+  * 流量和速度的动态校准
+  * 停车场
+* 5.2-交通模式
+  * 行人仿真
+  * 自行车仿真
+  * 铁路仿真
+  * 水路仿真
+* 5-3其他特点
+  * 排放相关
+  * 电动汽车
+  * 物流
+  * 通用参数
+  * 形状可视化
+  * 无线设备侦测
+  * 急救车
+* 5.4-交通细节
+  * 车辆速度
+  * 车辆插入
+  * 车辆权限（访问限制）
+  * 动态交叉口
+  * 随机性
+  * 行程和重新规划行程
+  * sublane模型
+  * 反方向行驶（莫非是潮汐车道？）
+  * 安全
+  * Mesosocopic模型
+* 5.5-一般的问题
+  * 为什么车辆可以被仿真？
+  * 意想不到交通堵塞？
+  * 意想不到的换道行为
+  * 如何得到较高的车流量？
+* 6-其他工具
+  * osmWebWizard
+  * TraCI/Interfacing\_TraCI-from-Python
+  * 通过Python读取SUMO路网和输出文件
+  * 转换输出文件为CSV或者Spreadsheet的工具
+  * 出口车流量轨迹（traceExporter）
+  * 比较两个路网之间的差异
+  * 可视化工具
+* 7-理论
+  * 一般情况下的交通模拟
+* 8-应用手册
+  * SUMO
+  * SUMO-GUI
+  * NETCONVERT
+  * NETEDIT
+  * NETGENERATE
+  * OD2TRIPS
+  * DUAROUTER
+  * JTRROUTER
+  * DFROUTER
+  * MAROUTER
+  * POLYCONVERT
+  * ACTIVITYGEN
+  * EMISSIONSMAP
+  * EMISSIONSDRIVINGCITY
+* 9-附录
+  * 更新日志
+  * FAQ
+  * 其他工具
+  * 已知的文件扩展
+
