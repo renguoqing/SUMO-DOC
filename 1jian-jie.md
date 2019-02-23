@@ -1,6 +1,6 @@
-# 了解SUMO
+# 简介
 
-SUMO\(Simulation of Urban Mobility\)
+SUMO\(Simulation of Urban Mobility\)是一款微观交通仿真软件。
 
 ```cpp
 char ch[] = "hello";
